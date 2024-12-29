@@ -19,7 +19,7 @@ h1 {
   width: 90%;
   margin: 0.5rem 0;
   cursor: pointer;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 0;
   letter-spacing: 2px;
   background: none;
   color: white;
@@ -29,6 +29,15 @@ h1 {
 
 background-color: rgba(255, 255, 255, 0.145);
 
+}
+
+.list{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+flex-direction: column;
 }
 
 .correct{
@@ -55,7 +64,7 @@ button{
   color: black;
   font-size: larger;
   border: none;
-  padding: 0.2rem 2rem;
+
   border-radius: 7px;
   cursor: pointer;
   letter-spacing: 2px;
@@ -74,6 +83,3 @@ button{
   }
 }
 
-.disable{
-  cursor: none;
-}
