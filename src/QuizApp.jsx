@@ -462,7 +462,10 @@ function QuizApp() {
                       : ""
                   }`}
                   onClick={() => {
-                    answerClicked(answer);
+             
+                      answerClicked(answer);
+                
+                    
                   }}
                   disabled={!!selectedAnswer}
                   key={index}
@@ -475,7 +478,11 @@ function QuizApp() {
             <div className="btn">
               <button
                 onClick={() => {
-                  nextQuestion();
+                  setTimeout(()=>{
+                    nextQuestion();
+                  },1500)
+
+                  
                 }}
               >
                 Next
