@@ -18,18 +18,15 @@ h1 {
   border: 1px solid white;
   width: 90%;
   margin: 0.5rem 0;
- 
+  font-size: larger;
   padding: 0.5rem 0;
   letter-spacing: 2px;
   background: none;
   color: white;
+  cursor: pointer;
 }
 
-.answer:hover{
 
-background-color: rgba(255, 255, 255, 0.145);
-
-}
 
 .list{
 display: flex;
@@ -59,12 +56,12 @@ padding: 2rem 0;
 }
 
 
-button{
+#btnClick{
   background: white;
   color: black;
   font-size: larger;
   border: none;
-
+padding: 0.1rem 3rem;
   border-radius: 7px;
   cursor: pointer;
   letter-spacing: 2px;

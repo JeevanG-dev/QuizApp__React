@@ -476,11 +476,11 @@ function QuizApp() {
             </ol>
 
             <div className="btn">
-              <button
+              <button id="btnClick"
                 onClick={() => {
                   setTimeout(()=>{
                     nextQuestion();
-                  },1500)
+                  },400)
 
                   
                 }}
